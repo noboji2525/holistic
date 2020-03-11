@@ -61,4 +61,28 @@ header {
 
 .main-text {
 	text-align: center;
+	background-color: #64b656;
+	margin: 0px;
+	padding: 0px;
+	color: #ECECEC;
+}
+
+.main-text h1 {
+	margin-bottom: 0px;
+}
+
+
+.text-box-left {
+	//float: left;
+	display: inline-block;
+	width: 50%;
+	height: 500px;
+	margin: 0px;
+}
+
+.text-box-right {
+	float: right;
+	display: inline-block;
+	opacity: 0.8;
+	margin: 0px;
 }
