@@ -5,6 +5,51 @@ body {
 	margin: 0px;
 }
 
+header {
+	
+}
+
 .in-area {
 	width: 90%;
+	margin:auto;
+}
+
+.top {
+	//font-size: 30px;
+	text-decoration: none;
+	//color: #151515;
+	display: inline-block;
+	margin: 4px 0px;
+	}
+
+.top:hover {
+	opacity: 0.7;
+	cursor: pointer;
+	width: 90%;
+}
+
+.top:active {
+	
+}
+
+.border-bottom {
+	border-bottom: 1px solid #4E4C4C;
+}
+
+.top-list {
+	
+}
+
+.top-list a {
+	text-decoration: none;
+	color: #151515;
+	display: inline-block;
+	margin: 10px 20px 10px 0px;
+}
+
+.top-list img {
+	float: right;
+	margin: 0px;
+	width: 50px;
+	height: 50px;
 }
