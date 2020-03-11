@@ -4,6 +4,7 @@
 body {
 	width: 100%;
 	margin: 0px;
+	background-color: #ECECEC;
 }
 
 header {
@@ -13,8 +14,7 @@ header {
 .in-area {
 	width: 90%;
 	margin:auto;
-}
-
+}	
 .top {
 	//font-size: 30px;
 	text-decoration: none;
@@ -48,9 +48,17 @@ header {
 	margin: 10px 20px 10px 0px;
 }
 
+.top-list a:hover {
+	opacity: 0.7;
+}
+
 .top-list img {
 	float: right;
 	margin: 0px;
 	width: 50px;
 	height: 50px;
+}
+
+.main-text {
+	text-align: center;
 }
